@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rrn"
+version = "0.1.0"
+description = "Ring Residual Network with Hedging — circular topology for equal-depth efficiency"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+authors = [{ name = "Reasonix RRN-H Research" }]
+keywords = ["deep-learning", "residual-networks", "ring-topology", "pytorch"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "torch>=2.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "torchvision>=0.15",
+    "tqdm>=4.65",
+    "pytest>=7.0",
+]
+all = [
+    "torchvision>=0.15",
+    "tqdm>=4.65",
+]
+
+[tool.setuptools.packages.find]
+include = ["rrn*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
