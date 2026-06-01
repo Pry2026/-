@@ -1,0 +1,42 @@
+# Byte-compiled / __pycache__
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ML / data
+data/
+*.pth
+*.pt
+*.ckpt
+checkpoints/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Reasonix
+.reasonix/
+
+# Old prototype
+ring_resnet/

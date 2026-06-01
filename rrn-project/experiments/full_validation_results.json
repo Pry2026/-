@@ -1,0 +1,56 @@
+[
+  {
+    "model": "RRN-H (64,4,2)",
+    "params": 218962,
+    "final_acc_mean": 0.9781000018119812,
+    "final_acc_std": 0.0007810171809978783,
+    "final_acc_max": 0.9789999723434448,
+    "epochs_to_95": 2.0,
+    "per_param_efficiency": 4.466985147249209
+  },
+  {
+    "model": "RRN-H (64,4,4)",
+    "params": 218962,
+    "final_acc_mean": 0.9778666496276855,
+    "final_acc_std": 0.0026102301198989153,
+    "final_acc_max": 0.9807999730110168,
+    "epochs_to_95": 2.0,
+    "per_param_efficiency": 4.465919427241648
+  },
+  {
+    "model": "RRN-H (48,6,3)",
+    "params": 171142,
+    "final_acc_mean": 0.9753332734107971,
+    "final_acc_std": 0.0018009304767474532,
+    "final_acc_max": 0.977400004863739,
+    "epochs_to_95": 2.0,
+    "per_param_efficiency": 5.698970874541592
+  },
+  {
+    "model": "RRN-H (32,8,2)",
+    "params": 106426,
+    "final_acc_mean": 0.9749333262443542,
+    "final_acc_std": 0.0037740380503237247,
+    "final_acc_max": 0.9775000214576721,
+    "epochs_to_95": 2.0,
+    "per_param_efficiency": 9.160668692277772
+  },
+  {
+    "model": "ResNet (18-blk)",
+    "params": 351818,
+    "final_acc_mean": 0.9765333533287048,
+    "final_acc_std": 0.0020207171328365803,
+    "final_acc_max": 0.9776999950408936,
+    "epochs_to_95": 2.0,
+    "per_param_efficiency": 2.7756776325506505
+  },
+  {
+    "model": "ResNet (12-blk)",
+    "params": 151834,
+    "final_acc_mean": 0.9753999710083008,
+    "final_acc_std": 0.003439468564465642,
+    "final_acc_max": 0.9782999753952026,
+    "epochs_to_95": 2.0,
+    "per_param_efficiency": 6.424120888656696
+  }
+]
